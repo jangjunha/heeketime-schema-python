@@ -7,8 +7,10 @@ authors = ["jangjunha <jangjunha113@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 protobuf = "^3.12.2"
+grpcio = "^1.30.0"
 
 [tool.poetry.dev-dependencies]
+grpcio-tools = "^1.30.0"
 
 [build-system]
 requires = ["poetry>=0.12"]

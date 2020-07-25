@@ -1,9 +1,18 @@
 # Heektime Schema for Python
 
+## Prerequisites
+
+- Python
+- [Poetry]
+
 ## Generate
 
 ```bash
-protoc --python_out=/path/to/heektime-schema-python/heektime_schema/ /path/to/heektime-schema/*.proto
+python -m grpc_tools.protoc \
+  -I/path/to/heektime-schema \
+  --python_out=./heektime_schema
+  --grpc_python_out=./heektime_schema \
+  /path/to/heektime-schema/*.proto
 ```
 
 ## Build
@@ -11,3 +20,5 @@ protoc --python_out=/path/to/heektime-schema-python/heektime_schema/ /path/to/he
 ```bash
 poetry build
 ```
+
+[Poetry]: https://python-poetry.org/
