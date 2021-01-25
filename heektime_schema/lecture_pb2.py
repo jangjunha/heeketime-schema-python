@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   syntax='proto3',
   serialized_options=None,
   create_key=_descriptor._internal_create_key,
-  serialized_pb=b'\n\x1dheektime-schema/lecture.proto\x12\rheek.heektime\"\xd0\x03\n\x07Lecture\x12\x12\n\nidentifier\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x11\n\tprofessor\x18\x03 \x01(\t\x12\x0e\n\x06\x63redit\x18\x04 \x01(\x01\x12\x16\n\x0ehours_per_week\x18\x05 \x01(\x01\x12\x10\n\x08\x63\x61tegory\x18\x06 \x03(\t\x12\x10\n\x08subtitle\x18\x07 \x01(\t\x12\x17\n\x0f\x63urriculum_type\x18\x08 \x01(\t\x12\x31\n\x05times\x18\t \x03(\x0b\x32\".heek.heektime.Lecture.LectureTime\x12*\n\x05metas\x18\n \x03(\x0b\x32\x1b.heek.heektime.Lecture.Meta\x1aV\n\x0bLectureTime\x12\x0f\n\x07weekday\x18\x01 \x01(\x05\x12\x11\n\ttimeBegin\x18\x02 \x01(\x05\x12\x0f\n\x07timeEnd\x18\x03 \x01(\x05\x12\x0c\n\x04room\x18\x06 \x01(\tJ\x04\x08\x04\x10\x06\x1at\n\x04Meta\x12\r\n\x03tag\x18\x01 \x01(\tH\x00\x12\x30\n\x04\x64\x61ta\x18\x02 \x01(\x0b\x32 .heek.heektime.Lecture.Meta.DataH\x00\x1a\"\n\x04\x44\x61ta\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\tB\x07\n\x05valueb\x06proto3'
+  serialized_pb=b'\n\x1dheektime-schema/lecture.proto\x12\rheek.heektime\"\xdd\x03\n\x07Lecture\x12\x12\n\nidentifier\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x11\n\tprofessor\x18\x03 \x01(\t\x12\x0e\n\x06\x63redit\x18\x04 \x01(\x01\x12\x16\n\x0ehours_per_week\x18\x05 \x01(\x01\x12\x10\n\x08\x63\x61tegory\x18\x06 \x03(\t\x12\x10\n\x08subtitle\x18\x07 \x01(\t\x12\x17\n\x0f\x63urriculum_type\x18\x08 \x01(\t\x12\x31\n\x05times\x18\t \x03(\x0b\x32\".heek.heektime.Lecture.LectureTime\x12*\n\x05metas\x18\n \x03(\x0b\x32\x1b.heek.heektime.Lecture.Meta\x12\x0b\n\x03url\x18\x0b \x01(\t\x1aV\n\x0bLectureTime\x12\x0f\n\x07weekday\x18\x01 \x01(\x05\x12\x11\n\ttimeBegin\x18\x02 \x01(\x05\x12\x0f\n\x07timeEnd\x18\x03 \x01(\x05\x12\x0c\n\x04room\x18\x06 \x01(\tJ\x04\x08\x04\x10\x06\x1at\n\x04Meta\x12\r\n\x03tag\x18\x01 \x01(\tH\x00\x12\x30\n\x04\x64\x61ta\x18\x02 \x01(\x0b\x32 .heek.heektime.Lecture.Meta.DataH\x00\x1a\"\n\x04\x44\x61ta\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\tB\x07\n\x05valueb\x06proto3'
 )
 
 
@@ -73,8 +73,8 @@ _LECTURE_LECTURETIME = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=309,
-  serialized_end=395,
+  serialized_start=322,
+  serialized_end=408,
 )
 
 _LECTURE_META_DATA = _descriptor.Descriptor(
@@ -111,8 +111,8 @@ _LECTURE_META_DATA = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=470,
-  serialized_end=504,
+  serialized_start=483,
+  serialized_end=517,
 )
 
 _LECTURE_META = _descriptor.Descriptor(
@@ -154,8 +154,8 @@ _LECTURE_META = _descriptor.Descriptor(
       create_key=_descriptor._internal_create_key,
     fields=[]),
   ],
-  serialized_start=397,
-  serialized_end=513,
+  serialized_start=410,
+  serialized_end=526,
 )
 
 _LECTURE = _descriptor.Descriptor(
@@ -236,6 +236,13 @@ _LECTURE = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
+    _descriptor.FieldDescriptor(
+      name='url', full_name='heek.heektime.Lecture.url', index=10,
+      number=11, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=b"".decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
   ],
   extensions=[
   ],
@@ -249,7 +256,7 @@ _LECTURE = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=49,
-  serialized_end=513,
+  serialized_end=526,
 )
 
 _LECTURE_LECTURETIME.containing_type = _LECTURE
