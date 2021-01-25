@@ -55,6 +55,7 @@ class Lectures(object):
             options=(),
             channel_credentials=None,
             call_credentials=None,
+            insecure=False,
             compression=None,
             wait_for_ready=None,
             timeout=None,
@@ -63,4 +64,4 @@ class Lectures(object):
             heektime__schema_dot_services_dot_lectures__pb2.GetLecturesPayload.SerializeToString,
             heektime__schema_dot_lecture__pb2.Lecture.FromString,
             options, channel_credentials,
-            call_credentials, compression, wait_for_ready, timeout, metadata)
+            insecure, call_credentials, compression, wait_for_ready, timeout, metadata)
