@@ -6,11 +6,11 @@ authors = ["jangjunha <jangjunha113@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-protobuf = "^3.14.0"
-grpcio = "^1.35.0"
+protobuf = "^4.21"
+grpcio = "^1.51"
 
 [tool.poetry.dev-dependencies]
-grpcio-tools = "^1.35.0"
+grpcio-tools = "^1.51"
 
 [build-system]
 requires = ["poetry>=0.12"]
