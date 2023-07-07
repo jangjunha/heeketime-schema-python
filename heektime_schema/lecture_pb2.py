@@ -13,7 +13,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dheektime-schema/lecture.proto\x12\rheek.heektime\"\xd0\x03\n\x07Lecture\x12\x12\n\nidentifier\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x11\n\tprofessor\x18\x03 \x01(\t\x12\x0e\n\x06\x63redit\x18\x04 \x01(\x01\x12\x16\n\x0ehours_per_week\x18\x05 \x01(\x01\x12\x10\n\x08\x63\x61tegory\x18\x06 \x03(\t\x12\x10\n\x08subtitle\x18\x07 \x01(\t\x12\x17\n\x0f\x63urriculum_type\x18\x08 \x01(\t\x12\x31\n\x05times\x18\t \x03(\x0b\x32\".heek.heektime.Lecture.LectureTime\x12*\n\x05metas\x18\n \x03(\x0b\x32\x1b.heek.heektime.Lecture.Meta\x1aV\n\x0bLectureTime\x12\x0f\n\x07weekday\x18\x01 \x01(\x05\x12\x11\n\ttimeBegin\x18\x02 \x01(\x05\x12\x0f\n\x07timeEnd\x18\x03 \x01(\x05\x12\x0c\n\x04room\x18\x06 \x01(\tJ\x04\x08\x04\x10\x06\x1at\n\x04Meta\x12\r\n\x03tag\x18\x01 \x01(\tH\x00\x12\x30\n\x04\x64\x61ta\x18\x02 \x01(\x0b\x32 .heek.heektime.Lecture.Meta.DataH\x00\x1a\"\n\x04\x44\x61ta\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\tB\x07\n\x05valueb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dheektime-schema/lecture.proto\x12\rheek.heektime\"\xdd\x03\n\x07Lecture\x12\x12\n\nidentifier\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x11\n\tprofessor\x18\x03 \x01(\t\x12\x0e\n\x06\x63redit\x18\x04 \x01(\x01\x12\x16\n\x0ehours_per_week\x18\x05 \x01(\x01\x12\x10\n\x08\x63\x61tegory\x18\x06 \x03(\t\x12\x10\n\x08subtitle\x18\x07 \x01(\t\x12\x17\n\x0f\x63urriculum_type\x18\x08 \x01(\t\x12\x31\n\x05times\x18\t \x03(\x0b\x32\".heek.heektime.Lecture.LectureTime\x12*\n\x05metas\x18\n \x03(\x0b\x32\x1b.heek.heektime.Lecture.Meta\x12\x0b\n\x03url\x18\x0b \x01(\t\x1aV\n\x0bLectureTime\x12\x0f\n\x07weekday\x18\x01 \x01(\x05\x12\x11\n\ttimeBegin\x18\x02 \x01(\x05\x12\x0f\n\x07timeEnd\x18\x03 \x01(\x05\x12\x0c\n\x04room\x18\x06 \x01(\tJ\x04\x08\x04\x10\x06\x1at\n\x04Meta\x12\r\n\x03tag\x18\x01 \x01(\tH\x00\x12\x30\n\x04\x64\x61ta\x18\x02 \x01(\x0b\x32 .heek.heektime.Lecture.Meta.DataH\x00\x1a\"\n\x04\x44\x61ta\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05value\x18\x02 \x01(\tB\x07\n\x05valueb\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'heektime_schema.lecture_pb2', globals())
@@ -21,11 +21,11 @@ if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
   _LECTURE._serialized_start=49
-  _LECTURE._serialized_end=513
-  _LECTURE_LECTURETIME._serialized_start=309
-  _LECTURE_LECTURETIME._serialized_end=395
-  _LECTURE_META._serialized_start=397
-  _LECTURE_META._serialized_end=513
-  _LECTURE_META_DATA._serialized_start=470
-  _LECTURE_META_DATA._serialized_end=504
+  _LECTURE._serialized_end=526
+  _LECTURE_LECTURETIME._serialized_start=322
+  _LECTURE_LECTURETIME._serialized_end=408
+  _LECTURE_META._serialized_start=410
+  _LECTURE_META._serialized_end=526
+  _LECTURE_META_DATA._serialized_start=483
+  _LECTURE_META_DATA._serialized_end=517
 # @@protoc_insertion_point(module_scope)
